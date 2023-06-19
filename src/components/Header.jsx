@@ -10,7 +10,7 @@ const Header = ({ title, bgColor, textColor }) => {
   return (
     <header style={headerStyles}>
       <div className="container">
-        <h2>{title}</h2>
+        <h1>{title}</h1>
       </div>
     </header>
   )
